@@ -673,12 +673,15 @@ background: #d6e9ff;
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
+      background: #eeac32;
+    color: #000;
 }
 
 .program-highlights summary.ph-header h2 span {
   font-weight: 400;
   font-size: 0.9rem;
   opacity: 0.8;
+  color: #000;
 }
 
 .program-highlights summary.ph-header i.fa-chevron-down {
@@ -943,4 +946,10 @@ background: #d6e9ff;
     margin-top: 18px;
 }
 
+}
+
+.column h2 {
+    margin-bottom: 15px;
+    color: #000000 !important;
+    background: #eeac32 !important;
 }
