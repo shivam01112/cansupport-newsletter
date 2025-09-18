@@ -414,7 +414,9 @@ ease;
       font-size: 18px;
       color: #000;
     }
-
+a{
+      text-decoration: none;
+}
     .engagement-box a {
       color: #0046a7;
       text-decoration: none;
@@ -678,10 +680,11 @@ background: #d6e9ff;
 }
 
 .program-highlights summary.ph-header h2 span {
-  font-weight: 400;
-  font-size: 0.9rem;
-  opacity: 0.8;
-  color: #000;
+    font-weight: 400;
+    font-size: 22px;
+    opacity: 0.8;
+    color: #000;
+    font-weight: 500;
 }
 
 .program-highlights summary.ph-header i.fa-chevron-down {
@@ -702,7 +705,10 @@ background: #d6e9ff;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 16px;
 }
-
+a:hover{
+      text-decoration: none !important;
+      
+}
 .program-highlights details[open] .highlights-grid {
   max-height: 2000px; /* adjust if content taller */
   padding: 20px 24px 28px;
