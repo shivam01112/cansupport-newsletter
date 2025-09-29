@@ -160,7 +160,7 @@
     margin-top: 5px;
     padding: 6px 20px;
     background: #EEAC32;
-    color: white;
+    color: #1d1f4d;
     font-size: 15px;
     font-weight: 600;
     border-radius: 6px;
@@ -169,11 +169,11 @@
     transition: all 0.3s 
 ease;
 }
-.newsletter .read-more:hover {
+/* .newsletter .read-more:hover {
   background: #1D1F4D;
   transform: translateY(-2px);
   box-shadow: 0 5px 12px rgba(0,0,0,0.2);
-}
+} */
 /* Wrapper */
 .newsletter {
   font-family: 'Segoe UI', sans-serif;
@@ -396,7 +396,7 @@ ease;
     }
 
     .engagement-box h2 {
-      color: #ffffffff;
+      color:#1d1f4d;
       font-size: 20px;
       font-weight: 800;
       margin-bottom: 20px;
@@ -676,7 +676,7 @@ background: #d6e9ff;
   align-items: center;
   gap: 10px;
       background: #eeac32;
-    color: #000;
+    color: #1d1f4d;
 }
 
 .program-highlights summary.ph-header h2 span {
@@ -956,6 +956,7 @@ a:hover{
 
 .column h2 {
     margin-bottom: 15px;
-    color: #000000 !important;
+    color: #1d1f4d !important;
     background: #eeac32 !important;
+    text-transform: uppercase !important ;
 }
